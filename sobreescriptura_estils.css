@@ -1,0 +1,41 @@
+/*1. color general de la lletra negra*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #000000; 
+}
+
+/*2. titol nivell 1 fons blanc lletra gris*/
+h1 {
+    background: #ffffff; /* fons blanc per h1 */
+    color: #808080; /* color gris per el text h1 */
+}
+
+/*3. tots els strong en color verd i subratllats*/
+strong {
+    color: #02a824; /* color verd per "strong" */
+    text-decoration: underline; /* subrallar el text */
+}
+
+/*4. enllaços del paràgraf2 en italica*/
+.paragraf2 a {
+    font-style: italic; /* text en cursiva per els enllaços del paragraf 2 */
+}
+
+/*5. footer general del web centrat i lletra de 10px*/
+footer {
+    text-align: center; /* alinia el text al centre */
+    font-size: 10px; /* mida de la lletra 10px */
+}
+
+/* Aplicació de estils per las classes específicas */
+#titol-pagina {
+    background: #ffffff; /* fondo blanco para el título */
+    color: #808080; /* color gris para el título */
+}
+
+/* Color lila paer el titol 3 */
+.titol_destacat.color_lila {
+    color: #800199; 
+}
+
