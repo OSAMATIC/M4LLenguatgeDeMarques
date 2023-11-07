@@ -1,0 +1,41 @@
+*{
+    margin: 5px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+    background-color: antiquewhite;
+}
+
+#Titol1 {
+    color: #f28c51;
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 1px 1px 3px black;
+    /* Serveix per afegir un contorn a les lletres a part d'una ombra */
+
+}
+
+h2 {
+    font-size: 17px;
+    ;
+}
+
+.textoForm {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+}
+
+.ColorEnt {
+    background-color: rgb(255, 255, 255);
+    font-style: italic;
+
+}
+.DespVia {
+    background-color: rgb(255, 255, 255);
+    font-style: italic;
+   
+}
+.En2Direccíon {
+    font-size: 15px;
+    font-style: italic
+}

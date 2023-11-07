@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(https://hips.hearstapps.com/hmg-prod/images/terra-1676635442.png?crop=1xw:1xh;center,top&resize=640:*);
+    background-size: cover;
+    background-position: center;
+}
+
+/* Estilos para el encabezado (header) */
+header {
+    background-color: #333333;
+    color: rgb(244, 240, 240);
+    text-align: center;
+    padding: px;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+
+    right: 0;
+}
+
+/* Estilos para el menú de navegación (nav) */
+nav {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    position: 10px;
+    /*modificat segons el */
+    position: sticky;
+    top: 0px;
+    padding: 10px;
+    margin-top: 60px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+/* Estilos para el contenido principal (main) */
+main {
+    padding: 20px;
+    margin-top: 80px;
+}
+
+.img {
+    height: 50%;
+    width: 50%;
+}
+
+img {
+    width: 100%;
+}
+
+/* Estilos para las secciones de contenido (section) */
+section {
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+/* Estilos para el pie de página (footer) */
+#footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: sticky;
+    bottom: 1px;
+
+}
+
+.newsHover:hover {
+    background-color: rgba(202, 39, 39, 0.633);
+}
+
+.news2Hover:hover {
+    background-color: rgba(39, 123, 202, 0.633);
+}
+
+.news3Hover:hover {
+    background-color: rgba(73, 181, 43, 0.633);
+}
