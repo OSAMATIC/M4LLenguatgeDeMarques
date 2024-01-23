@@ -1,0 +1,11 @@
+PREGUNTAS EXCERCICI 3 
+A)- He  puesto la etiqueta de “edad ” pero la hemos dejado vacía, porque en XML como tal no existe una forma directa de indicar un valor como nulo, también existe la posibilidad de hacer por ejemplo | <age> nulo=”true”/> 
+B)- Hay que tener en cuenta que las etiquetas hay que ponerlas para cada mascota al revés que en .json que con mencionarla 1 vez y poner todos dentro de una lista.
+PREGUNTAS EXCERCICI 4
+A)- En .Json ordena los datos en clave-valor por ejemplo las “características” se han convertido en un array (secuencia de valores ) dentro de [ ] separados por comas, los devices de han convertido en objetos con clave el nombre y su valor entre comillas separado por dos puntos | “nombre”:”juan”.
+B)- Para mantener la información junta he abierto una lista para el valor de precio : {contenido de lista} .
+C)- Sí hay algunas etiquetas que no se pueden poner directamente en .json pero eso no quiere decir que se tenga perder datos ya que cada formato tiene su forma de mostrar los datos 
+D)- Cada formato tiene sus propios caracteres especiales pero eso no afecta a la legibilidad de la estructura de datos por ejemplo las comillas dobles de xml en json van entre \  y a la inversa &quot;
+E)- En json si que admet els tipus de dades boolean (true, false, null), per les dades buides he utilitzat null , per exemple | “stock”:null, .
+F)- He utilizado un array es decir una coleccion ordenada de valores [ “dato”, “dato1”]
+G)-En mi caso sí que hay el “items_count”: 4, que indica que hay 4 grandes objetos.
