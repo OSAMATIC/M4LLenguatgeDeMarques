@@ -1,0 +1,31 @@
+<mxfile host="app.diagrams.net" modified="2023-11-28T18:35:00.876Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="68vpfer5Tr3rZYnEpbev" version="22.1.4" type="device">
+  <diagram name="Página-1" id="asVHKQPENL0OusGWMh0I">
+    <mxGraphModel dx="1687" dy="939" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="DTVyi06yhxwhkX5Zd4LO-1" value="&lt;font color=&quot;#ff3333&quot;&gt;ComputerStore&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="720" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DTVyi06yhxwhkX5Zd4LO-2" value="&lt;font color=&quot;#ff3333&quot;&gt;Computers&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="280" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DTVyi06yhxwhkX5Zd4LO-3" value="&lt;font color=&quot;#ff3333&quot;&gt;clientes&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1030" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DTVyi06yhxwhkX5Zd4LO-4" value="&lt;font color=&quot;#ff3333&quot;&gt;Computer&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="10" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DTVyi06yhxwhkX5Zd4LO-7" value="&lt;font color=&quot;#df0c0c&quot;&gt;Computer&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="480" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DTVyi06yhxwhkX5Zd4LO-8" value="&lt;font color=&quot;#ff3333&quot;&gt;Computer&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="860" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DTVyi06yhxwhkX5Zd4LO-9" value="&lt;font color=&quot;#ff3333&quot;&gt;Computer&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1210" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
