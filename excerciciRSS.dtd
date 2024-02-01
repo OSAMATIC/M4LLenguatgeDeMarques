@@ -1,0 +1,27 @@
+<!DOCTYPE rss [
+<!ELEMENT rss (channel)>
+<!ATTLIST rss version CDATA #REQUIRED>
+
+<!ELEMENT channel (title, link, description, lastBuildDate, language, sy:updatePeriod, sy:updateFrequency, image, item*)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT link (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT lastBuildDate (#PCDATA)>
+<!ELEMENT language (#PCDATA)>
+<!ELEMENT sy:updatePeriod (#PCDATA)>
+<!ELEMENT sy:updateFrequency (#PCDATA)>
+
+<!ELEMENT image (url, title, link, width, height)>
+<!ELEMENT url (#PCDATA)>
+<!ELEMENT width (#PCDATA)>
+<!ELEMENT height (#PCDATA)>
+
+<!ELEMENT item (title, link, dc:creator, pubDate, category*, guid, description, content:encoded)>
+<!ELEMENT dc:creator (#PCDATA)>
+<!ELEMENT pubDate (#PCDATA)>
+<!ELEMENT category (#PCDATA)>
+<!ELEMENT guid (#PCDATA)>
+<!ATTLIST guid isPermaLink CDATA #IMPLIED>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT content:encoded (#PCDATA)>
+]>
