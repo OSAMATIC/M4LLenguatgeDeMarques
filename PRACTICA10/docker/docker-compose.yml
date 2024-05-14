@@ -1,0 +1,11 @@
+
+version: "3.9"
+services:
+  practica:
+    image: mariadb:latest
+    container_name: practicaOY2
+    environment: 
+        MARIADB_ROOT_PASSWORD : 1234
+      #variables d'entorn si calen
+    ports:
+      - 3308:3306

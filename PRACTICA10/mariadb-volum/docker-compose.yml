@@ -1,0 +1,15 @@
+version: "3.9"
+services:
+  practica:
+    image: mariadb:latest
+    container_name: mariadb-volum
+    environment: 
+        MARIADB_ROOT_PASSWORD: 1234
+      #variables d'entorn si calen
+    ports:
+      - 3309:3306
+    volumes:
+     - data_osama_pauS_yeray:/var/lib/mysql
+volumes:
+ data_osama_pauS_yeray:
+

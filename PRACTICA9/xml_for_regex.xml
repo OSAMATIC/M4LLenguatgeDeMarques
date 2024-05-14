@@ -1,0 +1,97 @@
+<breakfast_menu>
+<food>
+    <name>Belgian Waffles</name>
+    <price>$5.95</price>
+    <description>
+   Two of our famous Belgian Waffles with plenty of real maple syrup
+   </description>
+    <calories>650</calories>á
+</food>
+áàä
+
+<description>/n.*</description>
+01234567890
+<food>
+    <name>Strawberry Belgian Waffles</name>
+    <price>$7.95</price>
+    <description>
+    Light Belgian waffles covered with strawberries and whipped cream
+    </description>
+    <calories>900</calories>
+</food>
+<food>
+    <name>Berry-Berry Belgian Waffles</name>
+    <price>$8.95</price>
+    <description>
+    Belgian waffles covered with assorted fresh berries and whipped cream
+    </description>
+    <calories>900</calories>
+</food>
+<food>
+    <name>French Toast</name>
+    <price>$4.50</price>
+    <description>
+    Thick slices made from our homemade sourdough bread
+    </description>
+    <calories>600</calories>
+</food>
+<food>
+    <name>Homestyle Breakfast</name>
+    <price>$6.95</price>
+    <description>
+    Two eggs, bacon or sausage, toast, and our ever-popular hash browns
+    </description>
+    <calories>950</calories>
+</food>
+</breakfast_menu>
+
+
+
+
+
+
+
+
+
+Adreces
+Escriu una expressió regex que validi les adreces que segueixin les següents condicions.
+Comença per: C/ Av. Pg. Rb
+Segueix del nom del carrer que pot ser una o diverses paraules amb lletres majúscules i minúscules accentuades
+Continua amb el número de porta que pot tenir diversos dígits
+Pot tenir número de pis i número de porta
+Continua amb el nom de la ciutat, que pot estar formada per diferents paraules 
+Acaba amb la província entre parèntesis. Només pot ser Barcelona, Girona, Tarragona o Lleida.
+
+Casos vàlids
+
+C/ Diputació 31 1 2 Badalona (Barcelona)
+Av. Girona 42 1 2 Badalona (Barcelona)
+Av. Rossello 35 Arbucies (Girona)
+Rb. Les Rambles 4432 Lleida  (Lleida)
+Av. Gran via de les corts catalanes 32 Santa Coloma de Gramanet (Barcelona)
+Av. Rosselló 32 1 2 Reus (Tarragona)
+Casos invàlids
+Av. Gran via de les corts catalanes 32 (Barcelona)
+Gran via de les corts catalanes 32 Badalona (Barcelona)
+C/  32 1 2 Badalona (Barcelona)
+Av. Rosselló 32 1 2 4 Salt (Girona)
+
+
+
+Casos vàlids
+
+C/      Diputació                           31  1   2       Badalona                    (Barcelona)
+Av.     Girona                              42  1   2       Badalona                    (Barcelona)
+Av.     Rossello                            35              Arbucies                    (Girona)
+Rb.     Les Rambles                         4432            Lleida                      (Lleida)
+Av.     Gran via de les corts catalanes     32              Santa Coloma de Gramanet (  Barcelona)
+Av.     Rosselló                            32  1   2       Reus (Tarragona)
+
+[a-ZA-Z]{}
+
+
+Casos invàlids
+Av. Gran via de les corts catalanes 32 (Barcelona)
+Gran via de les corts catalanes 32 Badalona (Barcelona)
+C/  32 1 2 Badalona (Barcelona)
+Av. Rosselló 32 1 2 4 Salt (Girona)

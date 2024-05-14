@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  practica:
+    image: mariadb:latest
+    container_name: mariadb-sense-volum
+    environment: 
+        MARIADB_ROOT_PASSWORD: 1234
+      #variables d'entorn si calen
+    ports:
+      - 33010:3306

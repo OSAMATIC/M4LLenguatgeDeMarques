@@ -1,0 +1,4 @@
+/sistema_op/sistema[propietari= "Google"]/any_llançament/node()
+
+
+//sistema/any[node()< 2001]/../propi/node()
